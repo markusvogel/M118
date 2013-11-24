@@ -46,10 +46,10 @@ void schreibePerson(FILE *pFile, struct Person person);
 //liest einzelne Person aus File
 int liesPerson(FILE *pFile, struct Person *person);
 
-//zeigt Menu an und gibt Auswahl zurück
+//zeigt Menu an und gibt Auswahl zurueck
 int liesMenuAuswahl();
 
-//sucht Person in Personendaten, gibt Index zurück, bei nicht gefunden -1
+//sucht Person in Personendaten, gibt Index zurueck, bei nicht gefunden -1
 int suchePerson(struct Person personen[], char name[], char vorname[], int anzPersonen);
 
 //aendert Personendaten einer Person
@@ -189,7 +189,7 @@ int liesPersonenDatei(char dateiName[], struct Person personen[])
   return i;
 }
 
-//zeigt Menu an und gibt Auswahl zurück
+//zeigt Menu an und gibt Auswahl zurueck
 int liesMenuAuswahl()
 {
   int auswahl;
@@ -207,7 +207,7 @@ int liesMenuAuswahl()
   return auswahl;
 }
 
-//sucht Person in Personendaten, gibt Index zurück, bei nicht gefunden -1
+//sucht Person in Personendaten, gibt Index zurueck, bei nicht gefunden -1
 int suchePerson(struct Person personen[], char nachname[], char vorname[], int anzPersonen)
 {
   int i = 0;
